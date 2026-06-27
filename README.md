@@ -4,7 +4,7 @@ in the `./experiments` directory. The cleaner script will simply produce the fin
 
 ## HuggingFace Dataset 🤗
 
-If you want to use the resulting dataset, you can download the parquet file from HuggingFace [here](#)
+If you want to use the resulting dataset, you can download the parquet file from HuggingFace [here](https://huggingface.co/datasets/dzur658/callhome-es-transcripts)
 
 ## Acquire the Transcripts
 The CallHome transcripts are distributed by TalkBank and not included in this repository. To acquire the CallHome dataset go [here](https://talkbank.org/ca/access/CallHome/spa.html) and click "Download transcripts". You will need to create a free account to download transcripts. The download will give you a file, `spa.zip`, with all 140 transcripts. <u>Do not open or unzip `spa.zip`!</u> Place `spa.zip` in the root of the repository and the scripts will read directly from the zip file.
