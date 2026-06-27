@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ignore SPA data from call home
+spa/*
+spa.zip
+
+# ignore parquet files
+*.parquet
